@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "prepare": "effect-language-service patch"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,9 @@
   "type": "commonjs",
   "dependencies": {
     "effect": "^3.19.8"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.58.4",
+    "typescript": "^5.9.3"
   }
 }
