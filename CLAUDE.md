@@ -10,3 +10,5 @@ The Effect Solutions CLI provides curated best practices and patterns for Effect
 - `effect-solutions search <term>` - Search topics by keyword
 <!-- effect-solutions:end -->
 
+**Local Effect Source:** The Effect repository is cloned to `~/.local/share/effect-solutions/effect` for reference. Use this to explore APIs, find usage examples, and understand implementation details when the documentation isn't enough.
+
